@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links with Images</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('background.jpg')  no-repeat center center fixed;
+            background-size: cover;
+            color: #880d0d;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .content-container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .image-link {
+            margin: 20px;
+            text-align: center;
+        }
+        .image-link img {
+            max-width: 300px;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .image-link img:hover {
+            transform: scale(1.05);
+        }
+        .caption {
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        h1 {
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-container">
+        <h1>Меню</h1>
+        <div class="container">
+            <a href="https://b2c.pampadu.ru/index.html#f1bf4cbd-945a-49ad-8906-4a4af622ad56" class="image-link">
+                <img src="сравнить осаго.jpg" alt="Site 1">
+                
+            </a>
+            <a href="https://ipoteka.pampadu.ru/index.html#f86c7737-a886-4cde-9701-431348d59a5c" class="image-link">
+                <img src="сравнить ИПОТЕКУ.jpg" alt="Site 2">
+            
+            </a>
+        </div>
+    </div>
+</body>
+</html>
